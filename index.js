@@ -8,11 +8,11 @@ const port = process.env.PORT || 8000;
 const {readdirSync} = require("fs");
 
 
-// app.get("/", (req, res) => {
-//   res.send("Main page!");
-// });
+app.get("/", (req, res) => {
+  res.send("Main page!");
+});
 
-app.get("/", plants);
+app.get("/plants", plants);
 
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
