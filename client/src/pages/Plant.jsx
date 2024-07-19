@@ -4,7 +4,7 @@ import Plant from "../components/Plant";
 import Footer from "../components/Footer";
 
 const Home = () => {
-  const API_URL = "https://oxygarden.onrender.com/plants";
+  const API_URL = "https://oxygarden-3e5j.onrender.com/plants";
   const [loading, setLoading] = useState(false);
   const [posts, setPosts] = useState([]);
 
